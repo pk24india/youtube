@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeHype Priyanshu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header style="background-color: #001f3f; color: #ffffff; padding: 10px;">
+        <h1>CodeHype</h1>
+        <p>Address: Kankarbagh Patna-800020 Bihar </p>
+        <p>Phone: +91-6206316268 Email : contact@codehype.com </p>
+        <img src="logo.jpg" alt="Shop Logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Product Catalog</a></li>
+            <li><a href="#">About Us</a></li> <!-- New About Us tab -->
+        </ul>
+    </nav>
+
+    <main>
+        <section id="product-catalogue">
+            <!-- Product listings go here -->
+        </section>
+
+        <section id="shopping-cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items go here -->
+            </ul>
+            <p id="total-price">Total Price: ₹0.00</p>
+            <button onclick="checkout()">Checkout</button>
+        </section>
+
+        <section id="about-us">
+            <h2>About Us</h2>
+            <p>Welcome to Code Hype! We are a local shop located in Kankarbagh, Patna.</p>
+            <p>Subscribe us on YouTube </p>
+        </section>
+    </main>
+
+    <footer>
+        <p> Priyanshu Kumar- Founder CodeHype </p>
+        <p> © 2024 All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Call the function to update currency symbols when the page loads
+        updateCurrencySymbol();
+    </script>
+</body>
+</html>

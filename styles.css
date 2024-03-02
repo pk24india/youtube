@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url'Blue Minimalist Personal Branding Youtube Banner-5_resized.png'; /* Update the filename accordingly */
+    background-size: cover; /* This ensures the background image covers the entire body */
+}
+header, main, footer {
+    margin: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-catalogue, #shopping-cart {
+    width: 45%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
